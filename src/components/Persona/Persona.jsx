@@ -26,7 +26,11 @@ export default function Persona({name, id}) {
           </>
         ) : null}
       </div>
-      <button onClick={() => setMoreDetails(!moreDetails)}>More Details</button>
+        {moreDetails ? (
+          <button onClick={() => setMoreDetails(!moreDetails)}>Less details</button>
+        ) : (
+          <button onClick={() => setMoreDetails(!moreDetails)}>More details</button>
+        )} 
       </div>
       </>
     ) : (
