@@ -1,0 +1,16 @@
+#princCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(80, 80, 80);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#propCont{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,11 @@
+#ulList{
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+}
